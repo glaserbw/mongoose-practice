@@ -1,0 +1,17 @@
+img {
+	width: 25%;
+	display: inline-block;
+}
+
+.museum-list {
+	border-style: solid;
+	margin: 15px;
+}
+
+h3 {
+	display: inline-block;
+}
+
+h5 {
+	display: inline-block;
+}

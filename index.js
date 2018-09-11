@@ -9,9 +9,10 @@ const app = express();
 // Set the view engine
 app.set('view engine', 'ejs');
 
-// TODO: Middleware, etc
+// Middleware, etc
 app.use(expressEjsLayouts);
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.static(__dirname + '/public'));
 
 // Declare controllers
 app.use('/museums', require('./controllers/museums'));

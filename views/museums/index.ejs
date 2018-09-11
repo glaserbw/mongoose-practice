@@ -3,3 +3,14 @@
 <!-- DELETE CODE BELOW THIS LINE -->
 <p>TODO: Add a forEach loop and show the names of all museums</p>
 <p>The name should be a link to the museum show page</p>
+
+
+<% museums.forEach(function (elem) {%>
+    <div class="container museum-list">
+    	<img src="<%= museums[0].image %>">
+		<h3><%= museums[0].name %> </h3>
+		<h5><%= museums[0].city %> , </h5>
+		<h5><%= museums[0].country %> </h5>
+	</div>	
+<%});%>
+        
