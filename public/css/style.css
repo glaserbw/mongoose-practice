@@ -1,11 +1,32 @@
-img {
-	width: 25%;
-	display: inline-block;
+.reasonable-image-size {
+	max-width: 500px;
+	height: auto;
+}
+
+.reasonable-image-height {
+	max-height: 200px;
+	width: auto;
+}
+
+.image-container {
+	test-align: center;
+	margin: 20px;
 }
 
 .museum-list {
 	border-style: solid;
 	margin: 15px;
+}
+
+.custom-fieldset {
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	padding: 10px 30px;
+	margin-bottom: 15px;
+}
+
+.custom-legend {
+	width: inherit;
 }
 
 h3 {
