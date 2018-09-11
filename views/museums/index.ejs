@@ -7,10 +7,10 @@
 
 <% museums.forEach(function (elem) {%>
     <div class="container museum-list">
-    	<img src="<%= museums[0].image %>">
-		<h3><%= museums[0].name %> </h3>
-		<h5><%= museums[0].city %> , </h5>
-		<h5><%= museums[0].country %> </h5>
+    	<img src="<%= elem.image %>">
+		<h3><%= elem.name %> </h3>
+		<h5><%= elem.city %> , </h5>
+		<h5><%= elem.country %> </h5>
 	</div>	
 <%});%>
         
